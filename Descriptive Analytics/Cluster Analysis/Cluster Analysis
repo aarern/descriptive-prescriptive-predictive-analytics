@@ -6,10 +6,7 @@
 library(stats)
 library(factoextra)
 
-#Set the working directory (change the path to your own)
-setwd("/Users/R_lecture/OtherMaterial/PracticeProblem")
-
-#Read the data from constituents-financials.csv
+#Read the data from constituents-financials.csv (include file location)
 data <- read.csv("constituents-financials.csv")
 
 #Summarize the dataset
